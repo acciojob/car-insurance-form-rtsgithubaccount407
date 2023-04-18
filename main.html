@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <form method="post">
+        <div>
+            <label for="name8">Name8</label>
+            <input type="text" name="name8" id="name" required>
+        </div><br>
+        <div>
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" required>
+        </div><br>
+        <div>
+            <label for="gender">Gender*</label>
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" required>
+            <label for="female">Female</label>
+        </div><br>
+        <div>
+			<label for="cars">Car Brands</label>
+            <select id="cars">
+                <option value="" selected disabled>--select car Brands--</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+                <option value="mercedez">Mercedez</option>
+            </select>
+        </div><br>
+        <div>
+            <lebel for="carage">Car Age*</lebel>
+            <input type="age" name="carage" id="carage" required>
+        </div><br>
+        
+        <div>
+            <lebel for="dop">Date of Purchage*</lebel>
+            <input type="date" name="date" id="dop" required>
+        </div><br>
 
+        <div>
+            <lebel for="password">Password*</lebel>
+            <input type="password" name="password" id="password" required>
+        </div><br>
+        
+        <div>
+            <button type="button" value="submit">Submit</button>
+        </div>
+
+    </form>
 </body>
-
 </html>
